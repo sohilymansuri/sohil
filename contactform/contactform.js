@@ -130,7 +130,7 @@ jQuery(document).ready(function ($) {
         console.log('error', e);
         $("#sendmessage").removeClass("show");
         $("#errormessage").addClass("show");
-        $('#errormessage').html(e.message);
+        $('#errormessage').html(e);
       }
     });
 
