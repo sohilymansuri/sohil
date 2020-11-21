@@ -119,7 +119,7 @@ jQuery(document).ready(function ($) {
       type: 'GET',
       data: str,
       headers: { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json' },
-      url:action,
+      url:'https://node-sohil-ga.herokuapp.com/msg_me',
       success: function (s) {
         $("#sendmessage").addClass("show");
         $("#errormessage").removeClass("show");
