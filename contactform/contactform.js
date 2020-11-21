@@ -92,7 +92,7 @@ jQuery(document).ready(function ($) {
     var action = $(this).attr('action');
     console.log("str", str);
     if (!action) {
-      action = 'http://localhost:3000/msg_me';
+      action = 'https://node-sohil-ga.herokuapp.com/msg_me';
     }
 
 
@@ -119,7 +119,7 @@ jQuery(document).ready(function ($) {
       type: 'GET',
       data: str,
       headers: { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json' },
-      url: 'http://localhost:3000/msg_me',
+      url:action,
       success: function (s) {
         $("#sendmessage").addClass("show");
         $("#errormessage").removeClass("show");
