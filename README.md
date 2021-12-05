@@ -1,5 +1,5 @@
 ## Sohil.ga
 
-[sohil.ga](https://sohil.ga).
+[sohil.ml](https://sohil.ml).
 
 
